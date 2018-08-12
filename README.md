@@ -41,5 +41,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-The exception is the generation of fractals and figures via this library. All figures and code, especially those pertaining to the display, saving and generation of fractals, are covered under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License.
-For commercial use of this content, please obtain a suitable license from the author.
+The exception is the generation of fractals and figures via this library. All figures and code pertaining to the display, saving and generation of fractals, are covered under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License.
+For publication and commercial use of this content, please obtain a suitable license from Shekhar S. Chandra.
