@@ -1,5 +1,6 @@
 # Chaotic Sensing (ChaoS)
 **Under Construction**
+
 This library houses the algorithms for sparse signal/image recovery via fractal sampling found in the open-access publication
 ```
 Chandra, S. S.; Ruben, G.; Jin, J.; Li, M.; Kingston, A.; Svalbe, I. & Crozier, S.
@@ -14,7 +15,8 @@ The newly discovered finite fractal is also presented in this work
 
 ## ChaoS Library
 This is a mostly Python library for implementing ChaoS algorithms.
-**Warning: The library has been developed under Python 2.7 and all results in the paper correspond to this version.**
+
+**Warning: The library has been developed under Python 2.7.13 and all results in the paper correspond to this version.**
 
 There are a number of sub-modules:
 
