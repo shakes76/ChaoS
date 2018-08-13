@@ -13,12 +13,6 @@ DOI: [https://doi.org/10.1109/TIP.2018.2864918](https://doi.org/10.1109/TIP.2018
 The newly discovered finite fractal is also presented in this work
 ![Finite Fractal](projects/finite_fractal/farey_image_1031_1.png)
 
-## Setup/Dependencies
-The ChaoS library is dependent on the usual Numpy, Scipy, Matplotlib and scikit-image libraries. You may need pyFFTW installed as well.
-The best way to set this up in Windows is using the [WinPython scientific distribution](https://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.13.1/) for Python 2.7.13.
-WinPython sets up a Python distribution with minimal libraries, but in a compact stand-alone directory without the need to install.
-In the interest of reproducibility, I have uploaded my WinPython distribution. Simply download, extract, launch Spyder from the distribution, open the script you wish to run and run it.
-
 ## ChaoS Library
 This is a mostly Python library for implementing ChaoS algorithms.
 
@@ -33,6 +27,12 @@ There are a number of sub-modules:
 The main scripts for generating the results of the [publication](https://doi.org/10.1109/TIP.2018.2864918) can be found in
 * projects/finite_fractal - To generate the fractal see test_finite_farey_fractal.py
 * projects/simulation - To run simulations of the reconstruction algorithms see test_finite_slices_osem_plot.py and test_finite_slices_ossirt_plot.py. Then run the test_compute_metrikz.py to generate the relevant metrics and figures.
+
+## Setup/Dependencies
+The ChaoS library is dependent on the usual Numpy, Scipy, Matplotlib and scikit-image libraries. You may need pyFFTW installed as well.
+The best way to set this up in Windows is using the [WinPython scientific distribution](https://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.13.1/) for Python 2.7.13.
+WinPython sets up a Python distribution with minimal libraries, but in a compact stand-alone directory without the need to install.
+In the interest of reproducibility, I have uploaded my WinPython distribution. Simply download, extract, launch Spyder from the distribution, open the script you wish to run and run it.
 
 ## Known Issues
 * Python 3.5 has issues running the SSIM metric.
