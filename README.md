@@ -29,10 +29,29 @@ The main scripts for generating the results of the [publication](https://doi.org
 * projects/simulation - To run simulations of the reconstruction algorithms see test_finite_slices_osem_plot.py and test_finite_slices_ossirt_plot.py. Then run the test_compute_metrikz.py to generate the relevant metrics and figures.
 
 ## Setup/Dependencies
+### WinPython Method
 The ChaoS library is dependent on the usual Numpy, Scipy, Matplotlib and scikit-image libraries. You may need pyFFTW installed as well.
 The best way to set this up in Windows is using the [WinPython scientific distribution](https://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.13.1/) for Python 2.7.13.
 WinPython sets up a Python distribution with minimal libraries, but in a compact stand-alone directory without the need to install.
 In the interest of reproducibility, I have uploaded my WinPython distribution. Simply download, extract, launch Spyder from the distribution, open the script you wish to run and run it.
+
+### Anaconda Method
+Give this a go in a conda environment. By default, mine had Qt5 installed, so it breaks lines which explicitly selects Qt4Agg. I suggest just removing that line. 
+The environment I used is attached in Releases section, created with:
+```
+$ conda env export > environment.yml
+```
+
+To reproduce it if you want, install miniconda then do
+```
+$ conda env create -f environment.yml
+```
+
+After that,
+```
+python -m test_finite_farey_fractal.py 
+```
+etc.
 
 ## Known Issues
 * Python 3.5 has issues running the SSIM metric.
