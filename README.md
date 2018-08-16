@@ -1,7 +1,5 @@
 # Chaotic Sensing (ChaoS)
-**Under Construction**
-
-This library houses the algorithms for sparse signal/image recovery via fractal sampling found in the open-access publication
+A Python library of algorithms for sparse signal/image recovery via fractal sampling known as Chaotic Sensing (ChaoS) found in the open-access publication
 ```
 Chandra, S. S.; Ruben, G.; Jin, J.; Li, M.; Kingston, A.; Svalbe, I. & Crozier, S.
 Chaotic Sensing,
@@ -13,8 +11,10 @@ DOI: [https://doi.org/10.1109/TIP.2018.2864918](https://doi.org/10.1109/TIP.2018
 The newly discovered finite fractal is also presented in this work
 ![Finite Fractal](projects/finite_fractal/farey_image_1031_1.png)
 
+Please cite this work if you use any part of this repository to ensure more work of this type is also made publically available in the future.
+
 ## ChaoS Library
-This is a mostly Python library for implementing ChaoS algorithms.
+This is a Python library for implementing ChaoS algorithms and finite Radon transforms.
 
 **Warning: Although compatible for Python 3, the library has been developed under Python 2.7.13 and all results in the paper correspond only to this version.**
 
@@ -27,6 +27,17 @@ There are a number of sub-modules:
 The main scripts for generating the results of the [publication](https://doi.org/10.1109/TIP.2018.2864918) can be found in
 * projects/finite_fractal - To generate the fractal see test_finite_farey_fractal.py
 * projects/simulation - To run simulations of the reconstruction algorithms see test_finite_slices_osem_plot.py and test_finite_slices_ossirt_plot.py. Then run the test_compute_metrikz.py to generate the relevant metrics and figures.
+* projects/matlab - Scripts used for modifying the MATLAB from Lustig 2007
+
+### Scripts
+To run the chaotic sensing scripts, use the following scripts in the projects/simulation directory: test_finite_slices_osem_plot.py test_finite_slices_ossirt_plot.py
+
+This should give you individual results for the reconstructions and output matrices in NPZ files. You can evaluate performances WRT CS using the test_compute_metrics.py script. You can change the image by commenting/uncommenting/adding the relevant lines in those scripts.
+
+To view the fractal, run the script projects/finite_fractal/test_finite_farey_fractal.py
+
+### Data
+The output results from both the CS and ChaoS methods have been provided in the Releases section. The phantom MR data will be released open source at a later date.
 
 ## Setup/Dependencies
 ### WinPython Method
@@ -75,3 +86,5 @@ limitations under the License.
 ```
 The exception is the generation of fractals and figures via this library. All figures and code pertaining to the display, saving and generation of fractals, are covered under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 For publication and commercial use of this content, please obtain a suitable license from the author.
+
+The modified MATLAB scripts from Lustig 2007 are copyright by Lustig and are only provided in the interest of reproducibility.
