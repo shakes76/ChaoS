@@ -20,6 +20,8 @@ The pattern and its process are akin to trying to see the reflection of your fac
 
 The fractal nature of the pattern is important because when we discard or have missing measurements, it is as if the surface of the pond is no longer still. In fact, the pond surface becomes disturbed with many, many ripples that is usually no way to resolving or reconciling a face on the surface anymore. What the fractal nature of the pattern allows us to do is to ensure that these ripples interact with each other in such a precise way that they all cancel each other out, so that we can see our face once again. The cancelling out of these artefacts is done to produce turbulence among them and amounts to inducing a chaotic mixing of image information, which is why the work is called Chaotic Sensing. 
 
+We discuss more details on this and other core components of the work on the [wiki page](https://github.com/shakes76/ChaoS/wiki).
+
 ## ChaoS Library
 This is a Python library for implementing ChaoS algorithms and finite Radon transforms.
 
