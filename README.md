@@ -7,12 +7,18 @@ Chandra, S. S.; Ruben, G.; Jin, J.; Li, M.; Kingston, A.; Svalbe, I. & Crozier, 
 Chaotic Sensing,
 IEEE Transactions on Image Processing, 2018, 1-1
 ```
+
 See [IEEE publication page](https://doi.org/10.1109/TIP.2018.2864918) for more details.
 DOI: [https://doi.org/10.1109/TIP.2018.2864918](https://doi.org/10.1109/TIP.2018.2864918)
 
 The newly discovered finite fractal is also presented in this work, see above.
 
 Please cite this work if you use any part of this repository to ensure more work of this type is also made publically available in the future.
+
+## In a nutshell
+The pattern and its process are akin to trying to see the reflection of your face in the surface of a pond. When we measure completely, without trying to be efficient or smart and ensuring we get all the information possible, it is if there is not disturbance in the pond and your face is easy to see. However, the conditions must be perfect and, in terms of MRI, it takes a long time to acquire all these measurements, but the image of the organ/tissue is straight forward to obtain. 
+
+The fractal nature of the pattern is important because when we discard or have missing measurements, it is as if the surface of the pond is no longer still. In fact, the pond surface becomes disturbed with many, many ripples that is usually no way to resolving or reconciling a face on the surface anymore. What the fractal nature of the pattern allows us to do is to ensure that these ripples interact with each other in such a precise way that they all cancel each other out, so that we can see our face once again. The cancelling out of these artefacts is done to produce turbulence among them and amounts to inducing a chaotic mixing of image information, which is why the work is called Chaotic Sensing. 
 
 ## ChaoS Library
 This is a Python library for implementing ChaoS algorithms and finite Radon transforms.
