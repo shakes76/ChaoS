@@ -1,7 +1,7 @@
 # Chaotic Sensing (ChaoS)
 ![Finite Fractal](projects/finite_fractal/farey_image_1031_1.png)
 
-A Python library of algorithms for sparse signal/image recovery via fractal sampling known as Chaotic Sensing (ChaoS) found in the open-access publication
+Algorithms for sparse signal/image recovery via fractal sampling known as Chaotic Sensing (ChaoS) found in the open-access publication
 ```
 Chandra, S. S.; Ruben, G.; Jin, J.; Li, M.; Kingston, A.; Svalbe, I. & Crozier, S.
 Chaotic Sensing,
