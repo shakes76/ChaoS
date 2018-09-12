@@ -12,6 +12,7 @@ IEEE Transactions on Image Processing, 2018, 1-1
 * DOI: [https://doi.org/10.1109/TIP.2018.2864918](https://doi.org/10.1109/TIP.2018.2864918)
 * Code: [GitHub Repository - https://github.com/shakes76/ChaoS](https://github.com/shakes76/ChaoS)
 * Website: [GitHub Pages - https://shakes76.github.io/ChaoS/](https://shakes76.github.io/ChaoS/)
+* Wiki page with supplementary material: [GitHub Wiki](https://github.com/shakes76/ChaoS/wiki)
 
 The newly discovered finite fractal is also presented in this work, see above.
 
