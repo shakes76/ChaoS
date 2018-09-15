@@ -5,12 +5,13 @@ Algorithms for sparse signal/image recovery via fractal sampling known as Chaoti
 ```
 Chandra, S. S.; Ruben, G.; Jin, J.; Li, M.; Kingston, A.; Svalbe, I. & Crozier, S.
 Chaotic Sensing,
-IEEE Transactions on Image Processing, 2018, 1-1
+IEEE Transactions on Image Processing, Volume: 27, Issue: 12, Dec. 2018
 ```
 
 * See [IEEE publication page](https://doi.org/10.1109/TIP.2018.2864918) for more details.
 * DOI: [https://doi.org/10.1109/TIP.2018.2864918](https://doi.org/10.1109/TIP.2018.2864918)
 * Code: [GitHub Repository - https://github.com/shakes76/ChaoS](https://github.com/shakes76/ChaoS)
+* Data: [Prime sized phantom k-space data available](https://github.com/shakes76/ChaoS/releases/download/v1.0/phantom_lego_4.mat)
 * Website: [GitHub Pages - https://shakes76.github.io/ChaoS/](https://shakes76.github.io/ChaoS/)
 * Wiki page with supplementary material: [GitHub Wiki](https://github.com/shakes76/ChaoS/wiki)
 
