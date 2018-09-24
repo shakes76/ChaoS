@@ -50,7 +50,7 @@ This should give you individual results for the reconstructions and output matri
 To view the fractal, run the script projects/finite_fractal/test_finite_farey_fractal.py
 
 ### Data
-The output results from both the CS and ChaoS methods have been provided in the Releases section. The phantom MR data will be released open source at a later date.
+The output results from both the CS and ChaoS methods have been provided in the Releases section. [Prime sized phantom k-space data available in the Release section](https://github.com/shakes76/ChaoS/releases/download/v1.0/phantom_lego_4.mat).
 
 ## Setup/Dependencies
 ### WinPython Method
