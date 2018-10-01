@@ -49,6 +49,10 @@ This should give you individual results for the reconstructions and output matri
 
 To view the fractal, run the script projects/finite_fractal/test_finite_farey_fractal.py
 
+To run the MR experiment scripts, use the scripts in the projects/MRI_experiment directory with the release (prime-sized) phantom k-space data: run_chaotic_abmlem.py
+
+This script implements a finite extension of the complex AB-MLEM algorithm (a complex-valued version of the MLEM not requiring the non-negativity constraint) as described by Choi et al. (2013, see [65] of the paper).
+
 ### Data
 The output results from both the CS and ChaoS methods have been provided in the Releases section. [Prime sized phantom k-space data available in the Release section](https://github.com/shakes76/ChaoS/releases/download/v1.0/phantom_lego_4.mat).
 
