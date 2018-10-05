@@ -1,24 +1,28 @@
 # Chaotic Sensing (ChaoS)
 ![Finite Fractal](projects/finite_fractal/farey_image_1031_1.png)
 
-A Python library of algorithms for sparse signal/image recovery via fractal sampling known as Chaotic Sensing (ChaoS) found in the open-access publication
+Algorithms for sparse signal/image recovery via fractal sampling known as Chaotic Sensing (ChaoS) found in the open-access publication
 ```
 Chandra, S. S.; Ruben, G.; Jin, J.; Li, M.; Kingston, A.; Svalbe, I. & Crozier, S.
 Chaotic Sensing,
-IEEE Transactions on Image Processing, 2018, 1-1
+IEEE Transactions on Image Processing, Volume: 27, Issue: 12, Dec. 2018
 ```
 
-See [IEEE publication page](https://doi.org/10.1109/TIP.2018.2864918) for more details.
-DOI: [https://doi.org/10.1109/TIP.2018.2864918](https://doi.org/10.1109/TIP.2018.2864918)
+* See [IEEE publication page](https://doi.org/10.1109/TIP.2018.2864918) for more details.
+* DOI: [https://doi.org/10.1109/TIP.2018.2864918](https://doi.org/10.1109/TIP.2018.2864918)
+* Code: [GitHub Repository - https://github.com/shakes76/ChaoS](https://github.com/shakes76/ChaoS)
+* Data: [Prime sized phantom k-space data available](https://github.com/shakes76/ChaoS/releases/download/v1.0/phantom_lego_4.mat)
+* Website: [GitHub Pages - https://shakes76.github.io/ChaoS/](https://shakes76.github.io/ChaoS/)
+* Wiki page with supplementary material: [GitHub Wiki](https://github.com/shakes76/ChaoS/wiki)
 
 The newly discovered finite fractal is also presented in this work, see above.
 
 Please cite this work if you use any part of this repository to ensure more work of this type is also made publically available in the future.
 
 ## In a nutshell
-The pattern and its process are akin to trying to see the reflection of your face in the surface of a pond. When we measure completely, without trying to be efficient or smart and ensuring we get all the information possible, it is if there is not disturbance in the pond and your face is easy to see. However, the conditions must be perfect and, in terms of MRI, it takes a long time to acquire all these measurements, but the image of the organ/tissue is straight forward to obtain. 
+The pattern and its process are akin to trying to see the reflection of your face in the surface of a pond. When we measure completely, without trying to be efficient or smart and ensuring we get all the information possible, it is if there is no disturbance in the pond and your face is easy to see. However, the conditions must be perfect and, in terms of MRI, it takes a long time to acquire all these measurements, but the image of the organ/tissue is straight forward to obtain. 
 
-The fractal nature of the pattern is important because when we discard or have missing measurements, it is as if the surface of the pond is no longer still. In fact, the pond surface becomes disturbed with many, many ripples that is usually no way to resolving or reconciling a face on the surface anymore. What the fractal nature of the pattern allows us to do is to ensure that these ripples interact with each other in such a precise way that they all cancel each other out, so that we can see our face once again. The cancelling out of these artefacts is done to produce turbulence among them and amounts to inducing a chaotic mixing of image information, which is why the work is called Chaotic Sensing. 
+The fractal nature of the pattern is important because when we discard or have missing measurements, it is as if the surface of the pond is no longer still. In fact, the pond surface becomes disturbed with many, many ripples that is usually no way to resolving or reconciling a face on the surface anymore. What the fractal nature of the pattern allows us to do is to ensure that these ripples interact with each other in such a precise way that they all cancel each other out, so that we can see our face once again. The cancelling out of these artefacts is done by producing turbulence among the ripples and amounts to a chaotic mixing of image information, which is why the work is called Chaotic Sensing. 
 
 We discuss more details on this and other core components of the work on the [wiki page](https://github.com/shakes76/ChaoS/wiki).
 
@@ -45,8 +49,12 @@ This should give you individual results for the reconstructions and output matri
 
 To view the fractal, run the script projects/finite_fractal/test_finite_farey_fractal.py
 
+To run the MR experiment scripts, use the scripts in the projects/MRI_experiment directory with the release (prime-sized) phantom k-space data: run_chaotic_abmlem.py
+
+This script implements a finite extension of the complex AB-MLEM algorithm (a complex-valued version of the MLEM not requiring the non-negativity constraint) as described by Choi et al. (2013, see [65] of the paper).
+
 ### Data
-The output results from both the CS and ChaoS methods have been provided in the Releases section. The phantom MR data will be released open source at a later date.
+The output results from both the CS and ChaoS methods have been provided in the Releases section. [Prime sized phantom k-space data available in the Release section](https://github.com/shakes76/ChaoS/releases/download/v1.0/phantom_lego_4.mat).
 
 ## Setup/Dependencies
 ### WinPython Method
